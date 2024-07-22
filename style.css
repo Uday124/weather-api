@@ -1,0 +1,27 @@
+.cardContent{
+    width:360px;
+    height:500px;
+    display:flex;
+    
+}
+.cardContainer{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+}
+.card-header{
+    border: 2px solid black;
+    height:120px;
+    padding:5px;
+    text-align: center;
+}
+.card-img-top{
+    border: 2px solid black;
+    height:160px;
+}
+.countryDetails{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+}
